@@ -1,0 +1,76 @@
+﻿body {
+    font-size: .85em;
+    color: #232323;
+    background-color: #fff;
+    font-family: Cambria, Georgia, "Times New Roman";
+    margin: 0;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+DIV#header DIV.title, DIV.item H3, DIV.item H4, DIV.pager A {
+    font: bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial;
+}
+
+DIV#header DIV.title {
+    font-size: 2em;
+    padding: .6em;
+}
+
+DIV#content {
+    border-left: 2px solid gray;
+    margin-left: 9em;
+    padding: 1em;
+}
+
+DIV.item {
+    border-top: 1px dotted gray;
+    padding-top: .7em;
+    margin-bottom: .7em;
+    width: auto;
+    align-items: center;
+}
+
+    Div.item .check-block {
+        left: 1em;
+        vertical-align: top;
+        float: left;
+        border-right: 1px dotted gray;
+        height: inherit;
+    }
+
+
+    DIV.item H3 {
+        font-size: 1.3em;
+        margin: 0 0 .25em 0;
+    }
+    DIV.item H3.Close {
+        font-size: 1.3em;
+        margin: 0 0 .25em 0;
+        text-decoration: line-through;
+    }
+
+DIV.item FORM {
+    float: right;
+}
+
+DIV.block {
+    border-top: 2px solid gray;
+}
+
+    DIV.block H3 {
+        font-size: 1.3em;
+        margin: 2em 0 .25em 0;
+    }
+
+input#Header {
+    width: 30em;
+}
+
+textarea {
+    height: 5em;
+    font-family: 'Segoe UI', Verdana;
+    width: 30em;
+}

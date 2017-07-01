@@ -1,0 +1,48 @@
+﻿@model IList<TestTask_Jira.Models.TaskModel>
+@using TestTask_Jira.Models
+
+@{
+    ViewBag.Title = "Задачи";
+}
+
+<h2>Задачи</h2>
+<h3>Всего: @Model.Count</h3>
+@using (Html.BeginForm("CloseTask", "Task", FormMethod.Post))
+{
+
+    for (int i = 0; i < Model.Count; i++)
+    {
+        <div class="item">
+            <div class="check-block">
+                @Html.EditorFor(m => Model[i].Selected, new { @class = "selector" })
+            </div>
+            @if(@Model[i].IsComplite)
+            {
+                <h3 class="Close">@Model[i].Header</h3>
+            }
+            else
+            {
+                <h3>@Model[i].Header</h3>
+            }
+
+            @Html.HiddenFor(m => Model[i].TaskID)
+        </div>
+
+    }
+
+    <div class="block">
+        <p><input type="submit" value="Закрыть выбранное" /></p>
+    </div>
+}
+
+
+    <div class="block">
+        <h3>Новое Задание</h3>
+        @using (Html.BeginForm("SendTask", "Task", FormMethod.Post))
+        {
+            <p>Заголовок</p>
+            @Html.TextBox("Header")
+
+            <p><input type="submit" value="Отправить" /></p>
+        }
+    </div>

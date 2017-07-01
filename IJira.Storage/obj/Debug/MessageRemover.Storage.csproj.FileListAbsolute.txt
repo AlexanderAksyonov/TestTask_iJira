@@ -1,0 +1,10 @@
+G:\My_project\2016\ASP_MVC\TestTask_MessageRemover\MessageRemover.Storage\bin\Debug\MessageRemover.Storage.dll.config
+G:\My_project\2016\ASP_MVC\TestTask_MessageRemover\MessageRemover.Storage\bin\Debug\MessageRemover.Storage.dll
+G:\My_project\2016\ASP_MVC\TestTask_MessageRemover\MessageRemover.Storage\bin\Debug\MessageRemover.Storage.pdb
+G:\My_project\2016\ASP_MVC\TestTask_MessageRemover\MessageRemover.Storage\bin\Debug\EntityFramework.dll
+G:\My_project\2016\ASP_MVC\TestTask_MessageRemover\MessageRemover.Storage\bin\Debug\EntityFramework.SqlServer.dll
+G:\My_project\2016\ASP_MVC\TestTask_MessageRemover\MessageRemover.Storage\bin\Debug\EntityFramework.xml
+G:\My_project\2016\ASP_MVC\TestTask_MessageRemover\MessageRemover.Storage\bin\Debug\EntityFramework.SqlServer.xml
+G:\My_project\2016\ASP_MVC\TestTask_MessageRemover\MessageRemover.Storage\obj\Debug\MessageRemover.Storage.dll
+G:\My_project\2016\ASP_MVC\TestTask_MessageRemover\MessageRemover.Storage\obj\Debug\MessageRemover.Storage.pdb
+G:\My_project\2016\ASP_MVC\TestTask_MessageRemover\MessageRemover.Storage\obj\Debug\MessageRemover.Storage.csprojResolveAssemblyReference.cache
